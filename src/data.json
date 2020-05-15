@@ -1,0 +1,128 @@
+[
+    {
+        "Rok": 2019,
+        "Przestepstwastwierdzone": 524,
+        "Przestepstwawykryte": 512,
+        "%wykrycia": "97,7"
+    },
+    {
+        "Rok": 2018,
+        "Przestepstwastwierdzone": 531,
+        "Przestepstwawykryte": 511,
+        "%wykrycia": "95,9"
+    },
+    {
+        "Rok": 2017,
+        "Przestepstwastwierdzone": 513,
+        "Przestepstwawykryte": 501,
+        "%wykrycia": "97,1"
+    },
+    {
+        "Rok": 2016,
+        "Przestepstwastwierdzone": 456,
+        "Przestepstwawykryte": 440,
+        "%wykrycia": "96,3"
+    },
+    {
+        "Rok": 2015,
+        "Przestepstwastwierdzone": 495,
+        "Przestepstwawykryte": 471,
+        "%wykrycia": "94,6"
+    },
+    {
+        "Rok": 2014,
+        "Przestepstwastwierdzone": 526,
+        "Przestepstwawykryte": 507,
+        "%wykrycia": "95,8"
+    },
+    {
+        "Rok": 2013,
+        "Przestepstwastwierdzone": 574,
+        "Przestepstwawykryte": 549,
+        "%wykrycia": 95
+    },
+    {
+        "Rok": 2012,
+        "Przestepstwastwierdzone": 582,
+        "Przestepstwawykryte": 557,
+        "%wykrycia": "94,2"
+    },
+    {
+        "Rok": 2011,
+        "Przestepstwastwierdzone": 662,
+        "Przestepstwawykryte": 637,
+        "%wykrycia": "94,7"
+    },
+    {
+        "Rok": 2010,
+        "Przestepstwastwierdzone": 680,
+        "Przestepstwawykryte": 634,
+        "%wykrycia": "92,3"
+    },
+    {
+        "Rok": 2009,
+        "Przestepstwastwierdzone": 763,
+        "Przestepstwawykryte": 721,
+        "%wykrycia": "92,8"
+    },
+    {
+        "Rok": 2008,
+        "Przestepstwastwierdzone": 759,
+        "Przestepstwawykryte": 720,
+        "%wykrycia": "93,1"
+    },
+    {
+        "Rok": 2007,
+        "Przestepstwastwierdzone": 848,
+        "Przestepstwawykryte": 815,
+        "%wykrycia": "93,4"
+    },
+    {
+        "Rok": 2006,
+        "Przestepstwastwierdzone": 816,
+        "Przestepstwawykryte": 762,
+        "%wykrycia": "92,4"
+    },
+    {
+        "Rok": 2005,
+        "Przestepstwastwierdzone": 837,
+        "Przestepstwawykryte": 771,
+        "%wykrycia": "90,6"
+    },
+    {
+        "Rok": 2004,
+        "Przestepstwastwierdzone": 980,
+        "Przestepstwawykryte": 913,
+        "%wykrycia": "90,8"
+    },
+    {
+        "Rok": 2003,
+        "Przestepstwastwierdzone": "1039",
+        "Przestepstwawykryte": 934,
+        "%wykrycia": "87,5"
+    },
+    {
+        "Rok": 2002,
+        "Przestepstwastwierdzone": "1188",
+        "Przestepstwawykryte": "1081",
+        "%wykrycia": "89,4"
+    },
+    {
+        "Rok": 2001,
+        "Przestepstwastwierdzone": "1325",
+        "Przestepstwawykryte": "1171",
+        "%wykrycia": "87,5"
+    },
+    {
+        "Rok": 2000,
+        "Przestepstwastwierdzone": "1269",
+        "Przestepstwawykryte": "1123",
+        "%wykrycia": 87
+    },
+    {
+        "Rok": 1999,
+        "Przestepstwastwierdzone": "1048",
+        "Przestepstwawykryte": 903,
+        "%wykrycia": "85,7"
+    }
+]

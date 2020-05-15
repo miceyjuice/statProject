@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #313131;
+    font-family: 'Lato', sans-serif;
+}
+#mainChart{
+   flex-basis: 100% !important;
+   width: 100% !important;
+   height: 100% !important;
+}
+.mainContainer{
+    width: 100%;
+    height:98vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+h1{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 900;
+    color: #ca3e47;
+    letter-spacing: 15px;
+    transform: scale(.7, 1.5);
+    text-shadow: 1px 1px 8px #111;
+}
+.chartContainer{
+    flex-basis: 100%;
+    width: 100%;
+    display: flex !important;
+    height: 90%;
+    padding: 50px;
+}
+.przycisk{
+    flex-basis: 30%;
+    height: 70px;
+    padding: 10px;
+    font-size: 12px;
+    color: #ccc;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 12px;
+    box-shadow: 0px 8px 10px #111;
+    transition: .2s;
+    cursor: pointer;
+    background: #ca3e47;
+    background: -moz-linear-gradient(top,  #ca3e47 0%, #701a20 100%);
+    background: -webkit-linear-gradient(top,  #ca3e47 0%,#701a20 100%); 
+    background: linear-gradient(to bottom,  #ca3e47 0%,#701a20 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca3e47', endColorstr='#701a20',GradientType=0 );
+    border: 1px solid #ca3e47;
+}
+.przycisk:hover{
+    color:  #e0646d;
+    background: transparent;
+    border: 1px solid #ca3e47;
+    font-size: .7rem;
+    letter-spacing: 10px;
+}
+.przycisk:focus{
+    outline: 0;
+}
+.przycisk p{
+    transform: scale(.8, 2);
+    text-shadow: 1px 1px 5px #111;
+}
+.odoCont{
+    flex-basis: 150%;
+    transform: translateY(-100px);
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    margin: 0 50px 30px 0;
+    box-shadow: 0px 0px 55px #111;
+    letter-spacing: 5px;
+}
+.odometer{
+    font-size: 5rem;
+    color: #e0646d;
+}
+.minHead{
+    flex-basis: 1%;
+}
+.butt-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 200%;
+    width: 100%;
+    height: 20%;
+    transform: translateY(-100px);
+    padding-right: 50px;
+    clear: both;
+    padding-top: 200px;
+}
+.row{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.choice{
+    flex-basis: 50%;
+    padding-bottom: 150px;
+    padding-right: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.choice button{
+    letter-spacing: 5px;
+    padding: 0 40px;
+}
+.choice p{
+    padding:30px;
+    font-size: .9rem;
+    color: #eee;
+}
+input[type="radio"]{
+    background-color: #ccc;
+    color: red;
+    padding: 100px;
+}
+.choice label{
+    color: #ccc;
+}
