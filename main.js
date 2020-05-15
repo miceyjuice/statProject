@@ -3,7 +3,7 @@ equation = document.querySelector(".odometer");
         el: this.equation,
         value: 0
 });
-choice = document.getElementById()
+//choice = document.getElementById()
 
 class Application {
     data;
