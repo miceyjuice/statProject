@@ -77,7 +77,7 @@ h1{
     text-shadow: 1px 1px 5px #111;
 }
 .odoCont{
-    flex-basis: 150%;
+    flex-basis: 110%;
     transform: translateY(-100px);
     width: 500px;
     height: 100px;
