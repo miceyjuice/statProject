@@ -3,7 +3,7 @@ equation = document.querySelector(".odometer");
         el: this.equation,
         value: 0
 });
-//choice = document.getElementById()
+buttonik = document.querySelectorAll(".przycisk");
 
 class Application {
     data;
@@ -42,6 +42,7 @@ class Application {
             this.skosnoscF();
             this.odchylenieF();
             this.medianaF();
+            this.bottomScroll();
         });
     }
     loadChart() {
@@ -96,8 +97,10 @@ class Application {
             backgroundColor: "#701a20"
         });
     }
-    choice(){
-
+    bottomScroll(){
+        buttonik.forEach(button => button.addEventListener("click", function(){
+            window.scrollTo(0,document.body.scrollHeight);
+        }))
     }
     wariancjaF() {
         this.buttons.wariancja.onclick = function () {
@@ -139,8 +142,6 @@ class Application {
         this.buttons.pearson.onclick = function () {
             setTimeout(function(){
                 this.odometer.update(parseFloat(jStat.corrcoeff(application.parsedConfirmed, application.parsedDiscovered)));
-                
-                console.log(parseFloat(jStat.corrcoeff(application.parsedConfirmed, application.parsedDiscovered)));
             });
         }
     }
