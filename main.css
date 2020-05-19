@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body{
     background-color: #313131;
     font-family: 'Lato', sans-serif;
@@ -27,6 +29,7 @@ body{
     flex-direction: column;
     height: 100%;
 }
+
 h1{
     text-transform: uppercase;
     padding-top: 50px;
@@ -47,7 +50,7 @@ h1{
     flex-basis: 30%;
     height: 70px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 1rem;
     color: #ccc;
     text-transform: uppercase;
     border-radius: 5px;
@@ -138,4 +141,19 @@ input[type="radio"]{
 }
 .choice label{
     color: #ccc;
+}
+
+@media all and (max-width:960px) {
+    .col{
+        flex-basis: 100%;
+    }  
+    .mainContainer{
+        flex-wrap: wrap;
+    }
+    .minHead{
+        text-align: center;
+    }
+    html{
+        font-size: 10px;
+    }
 }
