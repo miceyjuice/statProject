@@ -164,14 +164,16 @@ input[type="radio"]{
         font-size: 10px;
     }
     .przycisk{
-        flex-basis: fill;
-        padding: 0;
-        height: 50px;
-        font-size: 0.7rem;
+        height: 80px;
+        font-size: 1rem;
         width: 100% !important;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
         white-space: nowrap;
         padding: 0 1.2rem;
+        flex-basis: 100%;
+        border-radius: 0;
+        background: #ca3e47;
+        border-bottom: 1px solid #333;
     }
     .przycisk:hover{
         letter-spacing: 5px;
@@ -180,14 +182,13 @@ input[type="radio"]{
         padding: 0;
         transform: none;
         width:100%;
-        flex-basis: auto;
         justify-content: space-between;
         justify-items: stretch;
     }
     .row{
-        padding:10px;
         align-items: center; 
-        flex-basis: fill;
+        flex-wrap: wrap;
+        padding: 0;
     }
     .chartContainer{
         padding: 15px;
