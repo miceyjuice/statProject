@@ -152,8 +152,35 @@ input[type="radio"]{
     }
     .minHead{
         text-align: center;
+        padding: 0 0 50px 0;
     }
     html{
         font-size: 10px;
+    }
+    .przycisk{
+        flex-basis: 50%;
+        padding: 0;
+        height: 50px;
+        font-size: 0.8rem
+    }
+    .butt-section{
+        padding: 0;
+        transform: none;
+        align-content: stretch;
+    }
+    .row{
+        width: 10%;
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+    .chartContainer{
+        padding: 15px;
+    }
+    .choice{
+        padding-right: 0;
+    }
+    .odoCont{
+        margin: 0;
+        flex-basis: 50%;
     }
 }
