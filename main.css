@@ -164,7 +164,7 @@ input[type="radio"]{
         font-size: 10px;
     }
     .przycisk{
-        flex-basis: 50%;
+        flex-basis: fill;
         padding: 0;
         height: 50px;
         font-size: 0.7rem;
@@ -180,14 +180,14 @@ input[type="radio"]{
         padding: 0;
         transform: none;
         width:100%;
-        flex-basis: 0;
+        flex-basis: auto;
         justify-content: space-between;
         justify-items: stretch;
     }
     .row{
-        width: 50%;
         padding:10px;
         align-items: center; 
+        flex-basis: fill;
     }
     .chartContainer{
         padding: 15px;
