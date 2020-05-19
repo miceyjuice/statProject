@@ -173,10 +173,16 @@ input[type="radio"]{
         flex-basis: 100%;
         border-radius: 0;
         background: #ca3e47;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #701a20;
+        color: #eee;
+        box-shadow: none;
     }
     .przycisk:hover{
         letter-spacing: 5px;
+        font-size: 1.1rem;
+    }
+    .przycisk p{
+        text-shadow: none;
     }
     .butt-section{
         padding: 0;
@@ -210,9 +216,9 @@ input[type="radio"]{
         height: 80% !important;
      }
     .pierTyt{
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .drugiTyt{
-        padding: 30px 0;
+        padding: 50px 0;
     }
 }
