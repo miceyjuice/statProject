@@ -253,4 +253,7 @@ input[type="radio"]{
     .odoCont{
         flex-basis: 100%;
     }
+    .credits__paragraph{
+        font-size: 12px;
+    }
 }
